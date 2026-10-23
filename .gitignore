@@ -1,0 +1,12 @@
+# Never commit patient data
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.xls
+*.xlsx
+# Synthetic-run outputs are regenerated on demand
+results/*_synthetic_*
+figures/*_synthetic*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
